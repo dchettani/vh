@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/EstiloReserva.css"/>
+    </head>
+    <body>
+    <center><h1 class="Titulo"><font color=orange>Formulario Reserva</font></h1></center>
+        <div class="container">
+        <form class="form__reg" action="JSP/Reserva/Insertar_Reserva.jsp">
+            <label for="Costo">Costo</label>
+             <input class="input" style="font-size: 12pt;" type="text" name="Costo" id="nombre" placeholder="Ingrese el Costo" required autofocus>
+            <label  for="Observacion">Observacion</label>
+            <input class="input" style="font-size: 12pt;" type="text" name="Observacion" id="nombre" placeholder="Ingrese el Observacion" required>
+            <div class="btn__form">
+            	<input class="btn__submit" type="submit" value="Insertar">            		
+            </div>
+        </form>
+            </div>
+    </body>
+</html>

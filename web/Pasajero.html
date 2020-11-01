@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <br><p>
+    <center>
+        <h1>Formulario Pasajero</h1>
+        <form action="JSP/Pais/Insertar_Pais.jsp">
+                     
+            <label for="nombre">Nombre</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Ingrese el Nombre" required autofocus>
+            
+            <label for="apellido">Apellido</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Ingrese el Apellido" required autofocus>
+            
+            <select required>
+                <option>DNI</option>
+                <option>Carnet de Extranjeria</option>
+                <option>Reg.Unico de Contribuyentes</option>
+                <option>Pasaporte</option>
+                <option>Part. de Nacimiento-Edentidad</option>
+            </select>
+            
+            <label for="num">Numero Documento</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Ingrese el Numero de Documento" required autofocus>
+           
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="date" name="cumpleanios" step="1" min="2016-01-01" max="2016-12-31" value="<?php echo date('Y-m-d');?>" required>
+
+            <label for="nombre">Nacionalidad</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Ingrese el Nombre" required autofocus>
+           
+            <label for="nombre">Telefono</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Ingrese el Nombre" required autofocus>
+           
+            <label for="nombre">Correo</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Ingrese el Nombre" required autofocus>
+           
+            <input type="submit" value="Insertar Datos" >
+        </form>
+        </center>
+    </body>
+</html>

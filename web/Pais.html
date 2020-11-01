@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilo.css"/>
+    </head>
+    <body>
+        <br><p>
+    <center><h1 class="Letra"><font color="orange">Formulario Departamentos</font></h1><br></center>
+    <div class="container">
+        <form class="form__reg" action="JSP/Pais/Insertar_Pais.jsp" style="margin: auto;">
+            <label for="codigo">Codigo</label>
+           <!-- <input type="text" name="Codigo" id="nombre" placeholder="Ingrese el Codigo" 
+                   autofocus required>-->
+           <select style=" margin-bottom: 20px;width: 100%;padding: 10px;font-size: 12pt;
+                           font-family : verdana,arial,helvetica;" name="Codigo" class="input">               
+               <option>---- Seleccione ----</option>
+               <option>AMAZONAS</option>
+               <option>ANCASH</option>
+               <option>APURIMAC</option>
+               <option>AREQUIPA</option>
+               <option>AYACUCHO</option>
+               <option>CAJAMARCA</option>
+               <option>CUSCO</option>
+               <option>HUANCAVELICA</option>
+               <option>HUANUCO</option>
+               <option>ICA</option>
+               <option>JUNIN</option>
+               <option>LA LIBERTAD</option>
+               <option>LAMBAYEQUE</option>
+               <option>LIMA</option>
+               <option>LORETO</option>
+               <option>MADRE DE DIOS</option>
+               <option>MOQUEGUA</option>
+               <option>PASCO</option>
+               <option>PUNO</option>
+               <option>SAN MARTIN</option>      
+               <option>TACNA</option> 
+               <option>TUMBES</option> 
+               <option>UCAYALI</option> 
+           </select>
+            <label for="nombre">Nombre Ciudad</label>
+            <input class="input" style="font-size: 12pt;" type="text" name="Nombre" id="nombre" placeholder="Ingrese el Nombre" required>
+            <div class="btn__form">
+            	<input class="btn__submit" type="submit" value="Insertar">            		
+            </div>
+        </form> 
+        </div>
+    </body>
+</html>

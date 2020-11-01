@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/10/2020, 10:30:08 PM
+    Author     : Aldo Cardenas
+*/
+
+body {
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+form{
+    width: 100%;
+    padding: 2px;
+    
+}
+
+
+table{
+    width: 50%;
+    text-align: center;
+}
+
+h1{
+   color: white;
+}
+
+body{
+    /*
+    background-repeat: no-repeat;
+    background-size: cover;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+}
+
+.Todo{
+    background: rgba(150,255,255,.2);
+}
+
+.Todo:hover{
+     background: rgba(0,50,255,.3);
+}
+
+.Enlace1{   
+    text-decoration: none;
+    color:white;
+}
+
+.Enlace1 img:hover{
+    color:#40FF00;
+    /*font-size: 21px;*/
+    width: 30px;    
+}
+
+.Miguel{
+    background: rgba(255,220,0,.3);    
+}
+
+.Miguel:hover{
+    background: rgba(0,255,255,.3);  
+    cursor: pointer;
+}
+
+.Enlace2{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.EnlaceReserva{
+    text-decoration: none;
+    color: #FE2E64;
+    font-size: 18px;
+}
+
+.Enlace3{
+    text-decoration: none;
+    color: #FE2E2E;
+    font-size: 18px;
+}
+
+.Enlace3 img:hover{
+    color:#7401DF;
+   /* font-size: 21px;*/
+   width: 30px;
+}
+
+.EnlaceVuelo{
+    text-decoration: none;
+    color: #5858FA;
+    font-size: 18px;
+}

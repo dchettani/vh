@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <center>
+        <title>Inicio Sesión</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/Login.css"/>
+    </head>
+    <body bgcolor="#A9A9F5">
+    <center><h1 class="Titulo">Inicio Sesión</h1></center><br>
+        <div class="container">
+        <form class="form__reg" action="JSP/ValidateUser.jsp">
+            <label for="Costo">  Usuario:</label>
+            <input class="input" style="font-size: 12pt;" type="text" name="uname"
+                   id="nombre" placeholder="Ingrese Usuario" required autofocus ><br>
+            <label  for="Observacion">Contraseña:</label>
+            <input class="input" style="font-size: 12pt;" type="password" name="pass"
+            id="nombre" placeholder="Ingrese Contraseña" required>
+            <div class="btn__form">
+            	<input class="btn__submit" type="submit" value="Aceptar">            		
+            </div>
+        </form>
+            </div>
+    </body>
+    </center>
+</html>
+

@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/10/2020, 10:30:08 PM
+    Author     : Aldo Cardenas
+*/
+html {
+	font-size: 16px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-weight: bold;
+}
+
+.Titulo{
+    color: #5858FA;
+}
+
+body {
+	/*background:url('../IMG/Aero19.jpg');
+        background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;*/
+}
+
+.container {
+        padding-top: 12px;
+	max-width: 450px;
+	height: auto;
+	background-color: rgba(0,0,255,.2);
+	margin: 2% auto;
+	padding-bottom: 0.2rem;	
+        border-radius: 10px;
+}
+
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #F39B53;
+	margin-bottom: 1rem;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color: #CAC8C8;
+	font-size: 18px;
+}
+
+h2 span {
+	color: #F39B53;
+}
+
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0rem;
+}
+
+.input, .btn__submit, .btn__reset{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .4rem 0;
+	border: none;
+	border-bottom: solid #BCA9F5 .2rem;
+	transition: all .5s;
+}
+
+.input{
+    font-size: 14px;
+}
+
+.input:focus {
+	border-bottom: solid #81BEF7 .2rem;
+}
+
+.btn__submit, .btn__reset {
+	width: 40%;
+	border-bottom: none;
+	background-color: #8258FA;
+	color: white;
+        border-radius: 10px;
+}
+
+.btn__reset {
+	background-color: #EDA135;
+}
+
+.btn__submit:hover {
+	background-color: #5858FA;
+        cursor: pointer;
+}
+
+.btn__reset:hover{
+	background-color: #FA9535;
+}
+
+.Enlace2{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+}

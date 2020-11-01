@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/EstiloUsuario.css"/>
+    </head>
+    <body>
+    <center><h1 class="Titulo">Formulario Usuario</h1></center>
+        <div class="container">
+		
+        <form class="form__reg" action="JSP/Usuario/Insertar_Usuario.jsp">
+        <label>Nombres</label>
+        <input type="text" name="Nombre" placeholder="Ingrese los Nombres" class="input" autofocus required>
+        
+        <label>Apellidos</label>
+        <input type="text" name="Apellido" placeholder="Ingrese los Apellidos" class="input" required>
+
+        <label>Fecha_Nacimiento</label>
+        <input type="date" name="Fecha" class="input" required>
+        
+        <label>Direccion</label>
+        <input type="text" name="Direccion" placeholder="Ingrese la Direccion" class="input" required>
+         
+        <label>Telefono</label>
+        <input type="text" name="Telefono" placeholder="Ingrese el Telefono" class="input" required>
+        
+        <label>Usuario</label>
+        <input type="text" name="Usuario" placeholder="Ingrese el Logeo Usuario" class="input" required>
+        
+        <label>Contraseña</label>
+        <input type="text" name="Password" placeholder="Ingrese el Logeo Contraseña" class="input" required>
+                
+       <div class="btn__form">
+            	<input class="btn__submit" type="submit" value="REGISTRAR">            		
+            </div>
+            
+	</form>
+	</div>
+ 
+    </body>
+    
+    
+</html>
